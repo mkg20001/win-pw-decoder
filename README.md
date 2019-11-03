@@ -18,6 +18,10 @@ Decodes this...
 
 (the `Password` part is appended, also part of the "encryption")
 
+So it strips that as well
+
+`system` is the "encrypted" password
+
 # But, wait...
 
 Yes, MS calls some shitty null-separation "encryption". Don't blame me!
