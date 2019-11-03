@@ -14,7 +14,9 @@ Decodes this...
 
 ...into this
 
-`system`
+`systemPassword`
+
+(the `Password` part is appended, also part of the "encryption")
 
 # But, wait...
 
