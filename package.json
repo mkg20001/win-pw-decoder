@@ -5,6 +5,9 @@
       "node"
     ]
   },
+  "bin": {
+    "win-pw-decoder": "./src/bin.js"
+  },
   "version": "0.0.1",
   "description": "Decode \"encrypted\" windows passwords",
   "main": "index.js",
