@@ -1,0 +1,25 @@
+{
+  "name": "win-pw-decoder",
+  "template": {
+    "extends": [
+      "node"
+    ]
+  },
+  "version": "0.0.1",
+  "description": "Decode \"encrypted\" windows passwords",
+  "main": "index.js",
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "mocha -A",
+    "cov": "nyc mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "nyc": "*"
+  },
+  "dependencies": {
+    "buffer-replace": "^1.0.0",
+    "mkgs-tool": "^0.1.3"
+  }
+}
